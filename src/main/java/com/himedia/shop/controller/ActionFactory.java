@@ -5,6 +5,7 @@ import com.himedia.shop.controller.action.IndexAction;
 import com.himedia.shop.controller.action.admin.AdminAction;
 import com.himedia.shop.controller.action.admin.AdminProductDetailAction;
 import com.himedia.shop.controller.action.admin.AdminProductListAction;
+import com.himedia.shop.controller.action.admin.AdminProductUpdateWriteAction;
 import com.himedia.shop.controller.action.admin.AdminProductWriteAction;
 import com.himedia.shop.controller.action.admin.AdminProductWriteFormAction;
 import com.himedia.shop.controller.action.admin.AdminloginAction;
@@ -87,6 +88,7 @@ public class ActionFactory {
 		else if(command.equals("adminProductDetail"))ac=new AdminProductDetailAction();
 		else if(command.equals("adminProductWriteForm"))ac=new AdminProductWriteFormAction();
 		else if(command.equals("adminProductWrite"))ac=new AdminProductWriteAction();
+		else if(command.equals("adminProductUpdateWrite"))ac=new AdminProductUpdateWriteAction();
 		
 		
 		

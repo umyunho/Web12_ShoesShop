@@ -65,7 +65,11 @@ function go_save(){
 }
 
 
-
+function go_mod(pseq){
+   var url = "shop.do?command=adminProductUpdateForm&pseq="+pseq;
+   location.href = url;
+   
+}
 
 
 
